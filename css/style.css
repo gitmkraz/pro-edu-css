@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* common css */
+.mb{
+    margin-bottom: 150px;
+}
+.mb-2 {
+	margin-bottom: 1.5rem !important;
+}
+.mb-4 {
+	margin-bottom: 2.5rem !important;
+}
+.mb-80 {
+	margin-bottom: 80px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+p{
+    color: #777777;
+}
+.pr-30{
+    padding-right: 30px;
+}
+.bg-info{
+    background-color: #289BDE !important;
+    border-radius: 5px;
+}
+.btn:hover {
+	color:    #fff !important;
+}
+/*................. header-section............ */
+.navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar-brand{
+    font-family: 'Courgette', cursive;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 40px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #0D6EFD;
+}
+/*....... slider-area........... */
+.slider-area {
+	margin-bottom: 100px;
+}
+.carousel-caption {
+	top: 45% !important;
+}
+.slide-img::before{
+    position:absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: #222;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+.btn.btn-outline-light.text-light.slider-btn:hover {
+	color: #0D6EFD !important;
+}
+/* .............course-section............. */
+.course-details{
+    margin-left:30px;
+}
+.img-thumbnail {
+	border: none !important;
+}
+.explore-detail {
+	padding: 110px 0;
+}
+.course-body:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* .......explore-section.......... */
+.explore-img img {
+	width: 100%;
+}
+.explore-img {
+	transition: transform .5s ease;
+}
+.explore-img:hover {
+	transform: scale(1.1);
+}
+.explore-count{
+    display: flex;
+}
+/* .....student-sectio........ */
+.student-img img {
+	width: 100%;
+}
+.student-img  {
+    transition: transform .5s ease;
+}
+.student-img:hover{
+    transform: scale(1.1);
+  }
+
+/* brand-section */
+.brand-img img {
+	width: 70%;
+}
+/* feedback-section */
+.feedbace-section{
+    margin-bottom: 100px;
+}
+.text {
+	margin-bottom: 60px;
+}
+.feedback-img {
+	margin-left: -90px;
+	margin-bottom: 15px;
+}
+.fas.fa-star {
+	color: #F7AC16;
+}
+.fas.fa-star-half-alt {
+	color: #F7AC16;
+}
+.feedback {
+	padding: 0 67px;
+}
+.title {
+	font-size: 13px;
+	margin-top: -5px;
+	display: flex;
+    color: #A4A4A4;
+}
+.bg-primary {
+	background-color: #289BDE !important;
+	border-radius: 50%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 30px;
+	height: 30px;
+	background-size: 70% 70%;
+}
+.feedback-img img {
+	width: 65%;
+}
+.student-btn.text-center {
+	display: none;
+}
+/* footer */
+.logo{
+    font-family: 'Courgette', cursive;
+}
+.last-area{
+	padding: 55px 0;
+}
+.icon i {
+	background: #1E1E1E;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+}
+.icon i:hover{
+    cursor: pointer;
+}

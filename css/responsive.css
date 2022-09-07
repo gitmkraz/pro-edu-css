@@ -1,0 +1,122 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .mb {
+        margin-bottom: 65px;
+    }
+    .brand-area.mb {
+        display: none;
+    }
+    .explore-detail {
+        padding: 0;
+    }
+    .explore-detail {
+        padding: 0 !important;
+    }
+    .bg-info {
+        text-align: center;
+    }
+    .student-btn.text-center {
+        display: none;
+    }
+    .feedback {
+        padding: 0 126px;
+        margin-bottom: 60px;
+    }
+    .feedback-img {
+        margin-left: -96px !important;
+    }
+    .mb-80 {
+        margin-bottom: 0;
+    }
+    .student-btn.text-center{
+        display: block;
+        margin-bottom: 35px;
+    }
+    .student-btn.text-center a {
+        background: #289BDE;
+        text-decoration: none;
+        padding: 10px 24px;
+        border-radius: 4px;
+        color: #fff;
+    }
+    .mb {
+        margin-bottom: 30px;
+    }
+    .btn.btn-light.text-primary.fw-bolde {
+        display: flex;
+        margin: 0 auto;
+    }
+    .mb-80 {
+        margin-bottom: 30px;
+    }
+    .pt-4 {
+        padding-top: 0 !important;
+        padding-bottom: 15px;
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .mb{
+        margin-bottom: 60px;
+    }
+    .d-flex {
+        display: block !important;
+    }
+    .course-img img {
+        width: 100%;
+    }
+    .bg-info {
+        padding: 10px 0;
+    }
+    .student-title {
+        text-align: center;
+    }
+    .course-details {
+        margin-top: 20px;
+    }
+    .explore-detail {
+        padding: 35px 0;
+    }
+    .bg-info {
+        text-align: center;
+    }
+    .brand-area.mb {
+        display: none;
+    }
+    
+    .carousel-item {
+        margin-top: 18%;
+    }
+    .feedback-img img {
+        width: 20% !important;
+    }
+    .feedback-img {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+    .feedback-img {
+        margin-left: 0px !important;
+        margin-bottom: 15px;
+    }
+    .carousel-caption {
+        top: -3% !important;
+    }
+}
+
+
+
